@@ -1,0 +1,11 @@
+
+@import '~antd/dist/reset.css';
+
+// Common styles for application
+@import 'styles/common.scss';
+
+// Customized styles for AntD components
+@import 'styles/customizeAntd.scss';
+
+// Add custom style for the whole page
+@import 'styles/customStyle.scss';

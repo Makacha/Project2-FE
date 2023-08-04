@@ -1,0 +1,29 @@
+.ntf {
+  &__radio {
+    &--wrapper {
+      width: 100%;
+    }
+  }
+}
+
+.device {
+  &__table {
+    &-header {
+      background-color: #fafafa;
+    }
+    &-item {
+      border: 1px solid #f0f0f0;
+      padding: 8px 0;
+      border-left: none;
+      &:first-child {
+        border-left: 1px solid #f0f0f0;
+      }
+      & .ant-form-item {
+        margin-bottom: 0;
+      }
+      &.no-border-top {
+        border-top: 0;
+      }
+    }
+  }
+}
